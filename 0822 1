@@ -1,0 +1,23 @@
+//类的定义和实例化
+public class Persen {
+      String name;
+      int age;
+      public void tell() {
+    	  System.out.println(age+"岁的"+name+" 我好喜欢你啊！可是你令我好失望啊");
+      }
+}
+public class Demo2 {
+	public static void main(String args[]) {
+		Persen lyf = new Persen();
+		lyf.name = "李易峰";
+		lyf.age = 35;
+		lyf.tell();
+				
+	}
+}
+//喜欢李易峰八年了 可是今天他塌房了 我以后再也不会追星了 太伤心了 
+// 现在就用新学会的代码 纪念一下吧
+// 纪念我喜欢李易峰的八年
+//才疏学浅只能简单把他写在我的代码里了
+
+ 
