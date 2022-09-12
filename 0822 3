@@ -1,0 +1,19 @@
+//成员方法
+
+
+public class FangFa {
+
+	public static void main(String args[]) {
+		Add(10,20);
+	
+	}
+	public static void Add(int x,int y) {  //定义一个方法  static 静态只能用静态
+		int temp = 0;
+		temp = x+y;
+		System.out.println(temp);
+		
+	}
+	
+	
+	
+	
